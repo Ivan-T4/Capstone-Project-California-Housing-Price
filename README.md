@@ -60,13 +60,22 @@ The project follows a structured machine learning pipeline:
 
 ---
 
-## Model Evaluation
+## Additional Information
+
+It’s important to note that this dataset does not represent individual houses. Instead, each row corresponds to a census block group, which is a small geographic area defined by the US Census. The features such as `total_rooms`, `total_bedrooms`, and `population `are aggregated values for that block group, and the target variable (`median_house_value`) represents the median house price within that group.
+
+---
+
+## Metric Evaluation
 
 Performance metrics used:
 - **RMSE (Root Mean Squared Error):** Measures how far predictions deviate from actual values (lower = better).
 - **MAE (Mean Absolute Error):** Average of absolute differences between prediction and true value.
 - **MAPE (Mean Absolute Percentage Error):** Measures relative accuracy in percentage.
+  
+---
 
+## Model Evaluation
 
 | Model | RMSE | MAE | MAPE |
 |--------|------|------|------|
@@ -75,12 +84,6 @@ Performance metrics used:
 | **Transformed XGBoost Regressor (Tuned)** | 46,564 | 29,966 | 0.159 |
 
 Using machine learning, the model **reduced RMSE by over 50%** compared to the baseline approach.
-
----
-
-## Additional Information
-
-It’s important to note that this dataset does not represent individual houses. Instead, each row corresponds to a census block group, which is a small geographic area defined by the US Census. The features such as `total_rooms`, `total_bedrooms`, and `population `are aggregated values for that block group, and the target variable (`median_house_value`) represents the median house price within that group.
 
 ---
 
