@@ -135,3 +135,7 @@ Changing from `census block-level` aggregation to `individual` property-level da
 With these changes, in theory, the prediction error could be reduced, and the model would become more relevant for today’s housing market, but we can never rule out something that never happened before like pandemic, geo-political situation, never-happened disaster or other major things that can shift the housing price.
 
 ---
+
+## Important Note
+
+Untuk pengerjaan Feature Importance dan SHAP Analysis menggunakan model_normal_xgbr.sav yang perlu di load dengan pickle
