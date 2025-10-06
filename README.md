@@ -1,5 +1,15 @@
 # California Housing Price Prediction (1990 Census Data)
 
+Capstone Project Module 3 by Ivan Taufiqurrahman
+dataset source: https://www.kaggle.com/datasets/camnugent/california-housing-prices
+
+---
+
+**Link Video:** https://youtu.be/BvHkUiws-sc
+**Link Presentation:** https://docs.google.com/presentation/d/1kMw3Mb1mF917_MdRaAGJaoyuclL-dCZcqzQvW6sk3As/edit?usp=sharing
+
+---
+
 ## Context
 
 This project is based on the California Housing dataset from the 1990 census. Even though the dataset is historical, it provides a great opportunity to learn and practice how to build an end-to-end machine learning model for predicting house prices. Housing price prediction remains a relevant and important topic today, especially in 2025 where real estate is still a critical factor in personal finance, investment, and policy-making, but of course, many conditions have changed. While the predictions themselves may not directly apply to today’s market, the modeling process can serve as a reflection for anyone interested in applying similar methods with updated and more reliable data.
