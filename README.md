@@ -67,8 +67,7 @@ Performance metrics used:
 - **MAE (Mean Absolute Error):** Average of absolute differences between prediction and true value.
 - **MAPE (Mean Absolute Percentage Error):** Measures relative accuracy in percentage.
 
-<details>
-  <summary>Spoiler warning</summary>
+
 | Model | RMSE | MAE | MAPE |
 |--------|------|------|------|
 | **Baseline (No ML)** | 114,151 | 90,142 | 0.631 |
@@ -76,7 +75,7 @@ Performance metrics used:
 | **Transformed XGBoost Regressor (Tuned)** | 46,564 | 29,966 | 0.159 |
 
 Using machine learning, the model **reduced RMSE by over 50%** compared to the baseline approach.
-<details>
+
 ---
 
 ## Additional Information
@@ -121,4 +120,5 @@ Changing from `census block-level` aggregation to `individual` property-level da
 
 
 With these changes, in theory, the prediction error could be reduced, and the model would become more relevant for today’s housing market, but we can never rule out something that never happened before like pandemic, geo-political situation, never-happened disaster or other major things that can shift the housing price.
+
 ---
